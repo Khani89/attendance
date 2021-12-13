@@ -1,18 +1,18 @@
 <?php
     // Development Connection
-    $host = '127.0.0.1';
-    $db = 'attendance_db';
-    $user = 'root';
-    $pass = '';
-    $charset = 'utf8mb4';
+    //$host = '127.0.0.1';
+    //$db = 'attendance_db';
+    //$user = 'root';
+    //$pass = '';
+    //$charset = 'utf8mb4';
 
 
     // Remote Database Connection
-    //$host = 'bckddwjlyta2hxlyiuzu-mysql.services.clever-cloud.com';
-    //$db = 'bckddwjlyta2hxlyiuzu';
-    //$user = 'uvvk6ycybxbnqsyc';
-    //$pass = 'oNX2rjRCkX4V6QkZKvrm';
-    //$charset = 'utf8mb4';
+    $host = 'bckddwjlyta2hxlyiuzu-mysql.services.clever-cloud.com';
+    $db = 'bckddwjlyta2hxlyiuzu';
+    $user = 'uvvk6ycybxbnqsyc';
+    $pass = 'oNX2rjRCkX4V6QkZKvrm';
+    $charset = 'utf8mb4';
     
     $dsn = "mysql:host=$host; dbname=$db;charset=$charset";
 
