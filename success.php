@@ -13,6 +13,8 @@
         $email = $_POST['email'];
         $contact = $_POST['phone'];
         $specialty = $_POST['specialty'];
+
+
         //call function to insert and track if success or not
         $isSuccess = $crud->insertAttendees($fname, $lname, $dob, $email, $contact, $specialty);
         $specialtyName = $crud->getSpecialtyById($specialty); 
